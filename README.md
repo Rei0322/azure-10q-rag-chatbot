@@ -32,6 +32,10 @@ https://www.sec.gov/Archives/edgar/data/1744489/000174448926000057/dis-20260627.
 
 Azure OpenAI "On Your Data," the original approach for this project, supports only GPT-4o models and is scheduled to retire on October 14, 2026. GPT-4o quota was unavailable on my subscription, so I implemented RAG with Foundry Agent Service and a Foundry IQ knowledge base backed by Azure AI Search, which is Microsoft's recommended replacement.
 
+## Note for Reviewers
+
+The system message screenshot (`Evidence/02-system-message.png`) is cut off because the Foundry instructions editor and YAML view can't display the full text at once. The complete, exact instructions configured for the agent are in [`system-message.md`](system-message.md).
+
 ## Repository Contents
 
 ```
@@ -45,8 +49,11 @@ Azure OpenAI "On Your Data," the original approach for this project, supports on
     ├── 04a-prompt-1.png              # Prompts and responses with references
     ├── 04b-prompt-2.png
     ├── 04c-prompt-3.png
-    ├── 04d-prompt-4.png
-    ├── 04e-prompt-5.png
+    ├── 04d-prompt-4-part1.png
+    ├── 04d-prompt-4-part2.png
+    ├── 04d-prompt-4-part3.png
+    ├── 04e-prompt-5-part1.png
+    ├── 04e-prompt-5-part2.png
     ├── 05-prompt-response.png        # Single prompt response
     ├── 06-indexing-complete.png      # AI Search indexer run: Success
     ├── 07-ai-search-service.png      # AI Search service overview
