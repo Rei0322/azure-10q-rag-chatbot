@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Chat With Your Data: RAG Chatbot for SEC 10-Q Filings"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Ray
+    given-names: Samira
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/Rei0322/azure-10q-rag-chatbot"
+license: MIT
