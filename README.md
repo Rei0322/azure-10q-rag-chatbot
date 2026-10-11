@@ -1,5 +1,7 @@
 # Chat With Your Data: 10-Q Financial Analysis Chatbot
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23270746.svg)](https://doi.org/10.5281/zenodo.23270746)
+
 A retrieval-augmented generation (RAG) chatbot built on Microsoft Foundry and Azure AI Search that answers plain-language questions about a company's 10-Q quarterly financial filing, with cited references. Built as Project 1 of the Udacity Azure Generative AI Engineer Nanodegree.
 
 ## Overview
@@ -68,6 +70,10 @@ The prompts in `prompts.md` were tested against the filing and cover:
 - Business operations
 - Risk factors
 - Management discussion and analysis
+
+## Citation
+
+If you use this project, please cite it using the DOI [10.5281/zenodo.23270746](https://doi.org/10.5281/zenodo.23270746) (all versions) or [10.5281/zenodo.23270747](https://doi.org/10.5281/zenodo.23270747) (v1.0). Citation metadata is also in [CITATION.cff](CITATION.cff).
 
 ## Author
 
